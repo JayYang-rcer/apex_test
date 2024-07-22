@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/noetic/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/devel/.private/rc_msgs/include",
+                "${workspaceFolder}/src/rc_control/rc_common/include",
+                "${workspaceFolder}/src/rc_controllers/chassis_controllers/include",
+                "${workspaceFolder}/src/rc_controllers/action_controller/include",
+                "${workspaceFolder}/src/rc_control/rc_gazebo/include",
+                "${workspaceFolder}/src/rc_control/rc_hw/include",
+                "${workspaceFolder}/src/socket_test/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

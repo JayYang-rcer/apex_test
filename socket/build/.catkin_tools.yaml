@@ -1,0 +1,6 @@
+devel_space: /home/jay/socket/devel
+install: false
+install_space: /home/jay/socket/install
+profile: default
+source_space: /home/jay/socket/src
+workspace: /home/jay/socket

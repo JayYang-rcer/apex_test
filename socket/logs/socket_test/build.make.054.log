@@ -1,0 +1,32 @@
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 33%] Built target client
+[ 33%] Built target roscpp_generate_messages_py
+[ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target server_pack[0m
+[ 33%] Built target std_msgs_generate_messages_cpp
+[ 50%] [32mBuilding CXX object CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o[0m
+[35m[1mScanning dependencies of target head_udp_src[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o[0m
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::handle_udp_msg(int, bool)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:62:26:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   62 |             sprintf(buf, [01;35m[K"recieve\n"[m[K, 9);    //回复client
+      |                          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::handle_udp_msg(int, bool)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:62:26:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   62 |             sprintf(buf, [01;35m[K"recieve\n"[m[K, 9);    //回复client
+      |                          [01;35m[K^~~~~~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX executable /home/jay/socket/devel/.private/socket_test/lib/socket_test/server_pack[0m
+[100%] [32m[1mLinking CXX shared library /home/jay/socket/devel/.private/socket_test/lib/libhead_udp_src.so[0m
+[100%] Built target server_pack
+[100%] Built target head_udp_src

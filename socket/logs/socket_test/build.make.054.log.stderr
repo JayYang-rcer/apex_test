@@ -1,0 +1,8 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::handle_udp_msg(int, bool)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:62:26:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   62 |             sprintf(buf, [01;35m[K"recieve\n"[m[K, 9);    //回复client
+      |                          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::handle_udp_msg(int, bool)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:62:26:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+   62 |             sprintf(buf, [01;35m[K"recieve\n"[m[K, 9);    //回复client
+      |                          [01;35m[K^~~~~~~~~~~[m[K

@@ -1,0 +1,10 @@
+socket_test
+/home/jay/socket/devel/.private/socket_test/cmake.lock /home/jay/socket/devel/./cmake.lock
+/home/jay/socket/devel/.private/socket_test/share/socket_test/cmake/socket_testConfig-version.cmake /home/jay/socket/devel/share/socket_test/cmake/socket_testConfig-version.cmake
+/home/jay/socket/devel/.private/socket_test/share/socket_test/cmake/socket_testConfig.cmake /home/jay/socket/devel/share/socket_test/cmake/socket_testConfig.cmake
+/home/jay/socket/devel/.private/socket_test/lib/libsocket_test.so /home/jay/socket/devel/lib/libsocket_test.so
+/home/jay/socket/devel/.private/socket_test/lib/libhead_udp_src.so /home/jay/socket/devel/lib/libhead_udp_src.so
+/home/jay/socket/devel/.private/socket_test/lib/socket_test/server /home/jay/socket/devel/lib/socket_test/server
+/home/jay/socket/devel/.private/socket_test/lib/socket_test/server_pack /home/jay/socket/devel/lib/socket_test/server_pack
+/home/jay/socket/devel/.private/socket_test/lib/socket_test/client /home/jay/socket/devel/lib/socket_test/client
+/home/jay/socket/devel/.private/socket_test/lib/pkgconfig/socket_test.pc /home/jay/socket/devel/lib/pkgconfig/socket_test.pc

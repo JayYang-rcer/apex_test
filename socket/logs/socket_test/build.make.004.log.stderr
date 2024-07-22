@@ -1,0 +1,8 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:55:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   55 |         printf("s = [01;35m[K%f[m[K", [32m[Ks[m[K);
+      |                     [01;35m[K~^[m[K   [32m[K~[m[K
+      |                      [01;35m[K|[m[K   [32m[K|[m[K
+      |                      [01;35m[K|[m[K   [32m[Kint[m[K
+      |                      [01;35m[Kdouble[m[K
+      |                     [32m[K%d[m[K

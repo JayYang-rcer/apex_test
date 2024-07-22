@@ -1,0 +1,8 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksocket_test/server_pack.h: 没有那个文件或目录
+    1 | #include [01;31m[K"socket_test/server_pack.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/socket_test.dir/build.make:63：CMakeFiles/socket_test.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:672：CMakeFiles/socket_test.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

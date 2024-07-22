@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jay/socket/src/socket_test/include/socket_test/server_pack.h
+sys/select.h
+/home/jay/socket/src/socket_test/include/socket_test/sys/select.h
+unistd.h
+/home/jay/socket/src/socket_test/include/socket_test/unistd.h
+sys/types.h
+/home/jay/socket/src/socket_test/include/socket_test/sys/types.h
+sys/socket.h
+/home/jay/socket/src/socket_test/include/socket_test/sys/socket.h
+arpa/inet.h
+-
+netinet/in.h
+-
+cstdlib
+-
+cstdio
+-
+cstring
+-
+iostream
+-
+
+/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp
+socket_test/server_pack.h
+/home/jay/socket/src/socket_test/src/udp_test/socket_test/server_pack.h
+
