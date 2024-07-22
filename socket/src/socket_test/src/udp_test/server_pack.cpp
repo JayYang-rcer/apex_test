@@ -1,33 +1,40 @@
 #include "socket_test/server_pack.h"
 
-#define BUFFER_LEN 1024
+#define BUFFER_LEN 16
+
+union server_pack
+{
+    char buffer[3];
+    int data;
+}direction, accel_up, accel_dowm;
+
 
 /**
  * @brief Construct a new Server Pack:: Server Pack object
 */
-ServerPack::ServerPack(int16_t port,bool open_crc, int timeout)
+ServerPack::ServerPack(int16_t port, int timeout)
 {
-    this->timeout = timeout;
-    server_fd = socket(AF_INET, SOCK_DGRAM, 0);  //创建socket
-    if(server_fd < 0)
+    this->timeout_ = timeout_;
+    server_fd_ = socket(AF_INET, SOCK_DGRAM, 0);  //创建socket
+    if(server_fd_ < 0)
     {
         perror("create socket fail!\n");
         return;
     }
 
     //设置地址
-    memset(&ser_addr, 0, sizeof(ser_addr));
-    ser_addr.sin_family = AF_INET;
-    ser_addr.sin_port = htons(port);
-    ser_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    memset(&server_addr, 0, sizeof(server_addr));
+    server_addr.sin_family = AF_INET;
+    server_addr.sin_port = htons(port);
+    server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
 
      struct timeval tv;
     tv.tv_sec  = 0;
     tv.tv_usec = timeout;  // 200 ms
-    setsockopt(server_fd, SOL_SOCKET, SO_RCVTIMEO, (const char*)&tv, sizeof(struct timeval));
+    setsockopt(server_fd_, SOL_SOCKET, SO_RCVTIMEO, (const char*)&tv, sizeof(struct timeval));
 
-    ret = bind(server_fd, (struct sockaddr*)&ser_addr, sizeof(ser_addr));   //绑定地址结构体和socket
-    if(ret < 0)
+    result_ = bind(server_fd_, (struct sockaddr*)&server_addr, sizeof(server_addr));   //绑定地址结构体和socket
+    if(result_ < 0)
     {
         perror("bind fail!\n");
         return;
@@ -36,7 +43,7 @@ ServerPack::ServerPack(int16_t port,bool open_crc, int timeout)
 
 ServerPack::~ServerPack()
 {
-    close(server_fd);
+    close(server_fd_);
 }
 
 
@@ -46,21 +53,32 @@ ServerPack::~ServerPack()
  * @param buf 
 
 */
-void ServerPack::handle_date(char *buf)
+void ServerPack::HandleData(char *data)
 {
-    std::cout << "client: " << buf << std::endl;
+    std::cout << "data: " << data << std::endl;
+    for(int i=0; i<3; i++)
+        direction.buffer[i] = data[i];
+    for(int i=3; i<6; i++)
+        accel_up.buffer[i-3] = data[i];
+    for(int i=6; i<9; i++)
+        accel_dowm.buffer[i-6] = data[i];
+
+    direction_ = direction.data;
+    accel_up_ = accel_up.data;
+    accel_dowm_ = accel_dowm.data;
+    std::cout << "direction: " << direction_ << " accel_up: " << accel_up_ << " accel_dowm: " << accel_dowm_ << std::endl;
 }
 
 
 /**
  * @brief 处理udp消息
 */
-void ServerPack::handle_udp_msg(int fd, bool open_crc)
+void ServerPack::HandleMsg(int fd)
 {
-    char buf[BUFFER_LEN];   //接收缓冲区，1024字节
+    char buf[BUFFER_LEN];   //接收缓冲区，16字节
+    struct sockaddr_in clent_addr;  //clent_addr用于记录发送方的地址信息
     socklen_t len;
     int count;
-    struct sockaddr_in clent_addr;  //clent_addr用于记录发送方的地址信息
 
     while(1)
     {
@@ -75,27 +93,23 @@ void ServerPack::handle_udp_msg(int fd, bool open_crc)
         else
         {
             
-            handle_date(buf);
+            HandleData(buf);
             memset(buf, 0, BUFFER_LEN); //清空buf
-
-            sprintf(buf, "recieve\n");    //回复client
-            std::cout << "server: " << buf << std::endl;
-            sendto(fd, buf, strlen(buf), 0, (struct sockaddr*)&clent_addr, len);   //发送信息给client
         }
     }
 }
 
 
-void ServerPack::run()
+void ServerPack::Run()
 {
-    handle_udp_msg(server_fd,false);
+    HandleMsg(server_fd_);
 }
 
 
 int main(int argc, char *argv[])
 {
-    ServerPack server(8888,false,200000*5);
-    server.run();
+    ServerPack server(8888,200000*5);
+    server.Run();
     return 0;
 }
 

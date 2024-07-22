@@ -9,24 +9,35 @@
 #include <cstring>
 #include <iostream>
 
+union client_pack
+{
+    char buffer[3];
+    int data;
+}uDirection, uAccel_up, uAccel_dowm;
 
-#define BUFFER_LEN 512
-#define SERVER_PORT 8888
-#define SERVER_IP "172.0.5.182"
 
 void udp_msg_send(int fd, struct sockaddr* dst)
 {
+    char buf[BUFFER_LEN]={0};
     socklen_t socket_len;
     struct sockaddr_in src;
+    int direction=30, accel_up=4, accel_down=1;
+
+    uDirection.data = direction;
+    uAccel_up.data = accel_up;
+    uAccel_dowm.data = accel_down;
+
+    for(int i=0; i<3; i++)
+        buf[i] = uDirection.buffer[i];
+    for(int i=3; i<6; i++)
+        buf[i] = uAccel_up.buffer[i-3];
+    for(int i=6; i<9; i++)
+        buf[i] = uAccel_dowm.buffer[i-6];
+
     while(1)
     {
-        char buf[BUFFER_LEN] = "TEST UPD MSG\n";
         socket_len = sizeof(*dst);
-        std::cout << "client: " << buf << std::endl;
         sendto(fd,buf,BUFFER_LEN, 0, dst, socket_len);
-
-        recvfrom(fd, buf, BUFFER_LEN, 0, (struct sockaddr*)&src, &socket_len);  //接收来自server的信息
-        std::cout << "server: " << buf << std::endl;
         sleep(1);   //休眠一秒
     }
 }
@@ -51,6 +62,8 @@ int main(int argc, char *argv[])
     ser_addr.sin_addr.s_addr = htons(INADDR_ANY);
 
     udp_msg_send(client_fd, (struct sockaddr*)&ser_addr);
+
+    std::cout << "client end!" << std::endl;
     close(client_fd);
 
     return 0;

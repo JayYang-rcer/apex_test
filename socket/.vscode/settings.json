@@ -8,6 +8,8 @@
     "files.associations": {
         "regex": "c",
         "ostream": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "*.tcc": "cpp",
+        "future": "cpp"
     }
 }
