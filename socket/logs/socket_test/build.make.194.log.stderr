@@ -1,0 +1,22 @@
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:566:17:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int demo02_dr::dr_one[m[K’
+  566 |       const int [01;31m[Kdr_one[m[K = 1;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:556:17:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int demo02_dr::dr_one[m[K’ previously defined here
+  556 |       const int [01;36m[Kdr_one[m[K = 1;
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:568:17:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int demo02_dr::dr_two[m[K’
+  568 |       const int [01;31m[Kdr_two[m[K = 2;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:558:17:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int demo02_dr::dr_two[m[K’ previously defined here
+  558 |       const int [01;36m[Kdr_two[m[K = 2;
+      |                 [01;36m[K^~~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:570:17:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kconst int demo02_dr::dr_three[m[K’
+  570 |       const int [01;31m[Kdr_three[m[K = 3;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:560:17:[m[K [01;36m[Knote: [m[K‘[01m[Kconst int demo02_dr::dr_three[m[K’ previously defined here
+  560 |       const int [01;36m[Kdr_three[m[K = 3;
+      |                 [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

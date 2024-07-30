@@ -1,0 +1,124 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:62:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KOdomMsgCallback[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   63 | ServerPack::OdomMsgCallback(nav_msgs::Odometry::ConstPtr& msg[01;31m[K)[m[K
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint ServerPack::OdomMsgCallback(nav_msgs::Odometry_<std::allocator<void> >::ConstPtr&)[m[K’
+   63 | [01;31m[KServerPack[m[K::OdomMsgCallback(nav_msgs::Odometry::ConstPtr& msg)
+      | [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:131:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ServerPack::OdomMsgCallback(nav_msgs::Odometry_<std::allocator<void> >::ConstPtr&)[m[K’
+  131 |     void [01;36m[KOdomMsgCallback[m[K(nav_msgs::Odometry::ConstPtr& msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:108:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ServerPack[m[K’ defined here
+  108 | class [01;36m[KServerPack[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:62:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KOdomMsgCallback[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   63 | ServerPack::OdomMsgCallback(nav_msgs::Odometry::ConstPtr& msg[01;31m[K)[m[K
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint ServerPack::OdomMsgCallback(nav_msgs::Odometry_<std::allocator<void> >::ConstPtr&)[m[K’
+   63 | [01;31m[KServerPack[m[K::OdomMsgCallback(nav_msgs::Odometry::ConstPtr& msg)
+      | [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:131:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ServerPack::OdomMsgCallback(nav_msgs::Odometry_<std::allocator<void> >::ConstPtr&)[m[K’
+  131 |     void [01;36m[KOdomMsgCallback[m[K(nav_msgs::Odometry::ConstPtr& msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:108:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ServerPack[m[K’ defined here
+  108 | class [01;36m[KServerPack[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/serialization.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:227:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; T = ServerPack; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:12:77:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kboost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’
+  120 |     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+      |            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:236:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; T = ServerPack; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:12:77:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:137:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kboost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’
+  137 |     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/subscriber.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+/opt/ros/noetic/include/ros/parameter_adapter.h: In instantiation of ‘[01m[Kstatic ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; ros::ParameterAdapter<M>::Parameter = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:144:48:[m[K   required from ‘[01m[Kvoid ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; Enabled = void][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:141:16:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/parameter_adapter.h:78:30:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kros::ParameterAdapter<boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&>::Parameter[m[K’ {aka ‘[01m[Kboost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&[m[K’} to ‘[01m[Kconst boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’ discards qualifiers
+   78 |     return *event.getMessage([01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+/opt/ros/noetic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic void ros::serialization::Serializer<T>::read(Stream&, typename boost::call_traits<T>::reference) [with Stream = ros::serialization::IStream; T = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >; typename boost::call_traits<T>::reference = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&][m[K’:
+[01m[K/opt/ros/noetic/include/ros/serialization.h:164:22:[m[K   required from ‘[01m[Kvoid ros::serialization::deserialize(Stream&, T&) [with T = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >; Stream = ros::serialization::IStream][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:136:21:[m[K   required from ‘[01m[Kros::VoidConstPtr ros::SubscriptionCallbackHelperT<P, Enabled>::deserialize(const ros::SubscriptionCallbackHelperDeserializeParams&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; Enabled = void; ros::VoidConstPtr = boost::shared_ptr<const void>][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:118:24:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/serialization.h:137:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kdeserialize[m[K’
+  137 |     [01;31m[Kt.deserialize[m[K(stream.getData());
+      |     [01;31m[K~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/serialization.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:227:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; T = ServerPack; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:12:77:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kboost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’
+  120 |     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+      |            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/noetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:236:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; T = ServerPack; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:12:77:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/message_traits.h:137:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kboost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’
+  137 |     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/subscriber.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+/opt/ros/noetic/include/ros/parameter_adapter.h: In instantiation of ‘[01m[Kstatic ros::ParameterAdapter<M>::Parameter ros::ParameterAdapter<M>::getParameter(const Event&) [with M = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; ros::ParameterAdapter<M>::Parameter = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; ros::ParameterAdapter<M>::Event = ros::MessageEvent<const boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > > >; typename boost::remove_reference<typename boost::remove_const<M>::type>::type = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >][m[K’:
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:144:48:[m[K   required from ‘[01m[Kvoid ros::SubscriptionCallbackHelperT<P, Enabled>::call(ros::SubscriptionCallbackHelperCallParams&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; Enabled = void][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:141:16:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/parameter_adapter.h:78:30:[m[K [01;31m[Kerror: [m[Kbinding reference of type ‘[01m[Kros::ParameterAdapter<boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&>::Parameter[m[K’ {aka ‘[01m[Kboost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&[m[K’} to ‘[01m[Kconst boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’ discards qualifiers
+   78 |     return *event.getMessage([01;31m[K)[m[K;
+      |                              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+/opt/ros/noetic/include/ros/serialization.h: In instantiation of ‘[01m[Kstatic void ros::serialization::Serializer<T>::read(Stream&, typename boost::call_traits<T>::reference) [with Stream = ros::serialization::IStream; T = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >; typename boost::call_traits<T>::reference = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&][m[K’:
+[01m[K/opt/ros/noetic/include/ros/serialization.h:164:22:[m[K   required from ‘[01m[Kvoid ros::serialization::deserialize(Stream&, T&) [with T = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >; Stream = ros::serialization::IStream][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:136:21:[m[K   required from ‘[01m[Kros::VoidConstPtr ros::SubscriptionCallbackHelperT<P, Enabled>::deserialize(const ros::SubscriptionCallbackHelperDeserializeParams&) [with P = boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >&; Enabled = void; ros::VoidConstPtr = boost::shared_ptr<const void>][m[K’
+[01m[K/opt/ros/noetic/include/ros/subscription_callback_helper.h:118:24:[m[K   required from here
+[01m[K/opt/ros/noetic/include/ros/serialization.h:137:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass boost::shared_ptr<const nav_msgs::Odometry_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kdeserialize[m[K’
+  137 |     [01;31m[Kt.deserialize[m[K(stream.getData());
+      |     [01;31m[K~~^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

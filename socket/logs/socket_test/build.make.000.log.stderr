@@ -1,0 +1,33 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:39:9:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kcb[m[K’ declared void
+   39 | void cb([01;31m[Ksocket_test[m[K::drConfig& config, uint32_t level){
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksocket_test[m[K’ has not been declared
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:39:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig[m[K’ was not declared in this scope
+   39 | void cb(socket_test::drConfig& [01;31m[Kconfig[m[K, uint32_t level){
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:39:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Klevel[m[K’
+   39 | void cb(socket_test::drConfig& config, uint32_t [01;31m[Klevel[m[K){
+      |                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:100:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksocket_test[m[K’ was not declared in this scope
+  100 |     dynamic_reconfigure::Server<[01;31m[Ksocket_test[m[K::drConfig> server;
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:100:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  100 |     dynamic_reconfigure::Server<socket_test::drConfig[01;31m[K>[m[K server;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:102:70:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[KcbType[m[K’
+  102 |     dynamic_reconfigure::Server<socket_test::drConfig>::CallbackType [01;31m[KcbType[m[K;
+      |                                                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:103:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcbType[m[K’ was not declared in this scope
+  103 |     [01;31m[KcbType[m[K = boost::bind(&cb,_1,_2);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:103:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kcb[m[K’ was not declared in this scope
+  103 |     cbType = boost::bind(&[01;31m[Kcb[m[K,_1,_2);
+      |                           [01;31m[K^~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:105:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetCallback[m[K’ in ‘[01m[Kserver[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  105 |     server.[01;31m[KsetCallback[m[K(cbType);
+      |            [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

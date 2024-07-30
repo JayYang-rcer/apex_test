@@ -3,6 +3,6 @@ prefix=/home/jay/socket/devel/.private/socket_test
 Name: socket_test
 Description: Description of socket_test
 Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+Cflags: -I/home/jay/socket/devel/.private/socket_test/include -I/home/jay/socket/src/socket_test/include
+Libs: -L${prefix}/lib -lsocket_test
+Requires: roscpp rospy std_msgs

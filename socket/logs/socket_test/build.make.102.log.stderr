@@ -1,0 +1,22 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::HandleAccel(int, int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kasctime[m[K’?
+   81 |     [01;31m[Klast_time[m[K = current_time;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kasctime[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:81:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+   81 |     last_time = [01;31m[Kcurrent_time[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::HandleAccel(int, int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kasctime[m[K’?
+   81 |     [01;31m[Klast_time[m[K = current_time;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kasctime[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:81:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+   81 |     last_time = [01;31m[Kcurrent_time[m[K;
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

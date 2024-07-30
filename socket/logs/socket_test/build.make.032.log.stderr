@@ -1,7 +1,12 @@
-[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksocket_test/server_pack.h: 没有那个文件或目录
-    1 | #include [01;31m[K"socket_test/server_pack.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:686：CMakeFiles/head_udp_src.dir/all] 错误 2
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kvoid control_timer_callback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:61:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KF1Car::UpdateSpeed(double&, double&)[m[K’
+   61 |         car.UpdateSpeed(throttle, dt[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:46:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid F1Car::UpdateSpeed(double, double, double)[m[K’
+   46 |     void [01;36m[KUpdateSpeed[m[K(double throttle, double brake, double dt)
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:46:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
 make: *** [Makefile:141：all] 错误 2

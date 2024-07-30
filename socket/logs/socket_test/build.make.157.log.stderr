@@ -1,0 +1,32 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:68:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KOdomMsgCallback[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   63 | ServerPack::OdomMsgCallback(const nav_msgs::Odometry::ConstPtr& msg[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint ServerPack::OdomMsgCallback(const ConstPtr&)[m[K’
+   63 | [01;31m[KServerPack[m[K::OdomMsgCallback(const nav_msgs::Odometry::ConstPtr& msg)
+      | [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:131:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ServerPack::OdomMsgCallback(const ConstPtr&)[m[K’
+  131 |     void [01;36m[KOdomMsgCallback[m[K(const nav_msgs::Odometry::ConstPtr& msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:108:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ServerPack[m[K’ defined here
+  108 | class [01;36m[KServerPack[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:68:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KOdomMsgCallback[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   63 | ServerPack::OdomMsgCallback(const nav_msgs::Odometry::ConstPtr& msg[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint ServerPack::OdomMsgCallback(const ConstPtr&)[m[K’
+   63 | [01;31m[KServerPack[m[K::OdomMsgCallback(const nav_msgs::Odometry::ConstPtr& msg)
+      | [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:131:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid ServerPack::OdomMsgCallback(const ConstPtr&)[m[K’
+  131 |     void [01;36m[KOdomMsgCallback[m[K(const nav_msgs::Odometry::ConstPtr& msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:108:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass ServerPack[m[K’ defined here
+  108 | class [01;36m[KServerPack[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

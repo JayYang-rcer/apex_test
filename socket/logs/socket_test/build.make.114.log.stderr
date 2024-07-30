@@ -1,0 +1,14 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:55:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   55 |     direction_ = [01;35m[K'data[0]'[m[K*100 + data[1]*10 + data[2];
+      |                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:55:18:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   55 |     direction_ = [01;35m[K'data[0]'[m[K*100 + data[1]*10 + data[2];
+      |                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::HandleData(char*)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:55:27:[m[K [01;35m[Kwarning: [m[Kinteger overflow in expression of type ‘[01m[Kint[m[K’ results in ‘[01m[K127853652[m[K’ [[01;35m[K-Woverflow[m[K]
+   55 |     direction_ = [01;35m[K'data[0]'*100[m[K + data[1]*10 + data[2];
+      |                  [01;35m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K In member function ‘[01m[Kvoid ServerPack::HandleData(char*)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:55:27:[m[K [01;35m[Kwarning: [m[Kinteger overflow in expression of type ‘[01m[Kint[m[K’ results in ‘[01m[K127853652[m[K’ [[01;35m[K-Woverflow[m[K]
+   55 |     direction_ = [01;35m[K'data[0]'*100[m[K + data[1]*10 + data[2];
+      |                  [01;35m[K~~~~~~~~~^~~~[m[K

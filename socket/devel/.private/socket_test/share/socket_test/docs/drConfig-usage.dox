@@ -1,0 +1,12 @@
+\subsubsection usage Usage
+\verbatim
+<node name="dr_node" pkg="demo02_dr" type="dr_node">
+  <param name="brake" type="int" value="0" />
+  <param name="throttle" type="int" value="0" />
+  <param name="string_param" type="str" value="hello world " />
+  <param name="addThrottle" type="bool" value="True" />
+  <param name="car_class" type="int" value="1" />
+  <param name="engine" type="int" value="1" />
+</node>
+\endverbatim
+

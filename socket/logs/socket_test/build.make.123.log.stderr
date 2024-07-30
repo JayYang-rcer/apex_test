@@ -1,0 +1,62 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:11[m[K:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kvoid cb(demo02_dr::drConfig&, uint32_t)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:47:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   47 |     ROS_INFO([01;35m[K"动态参数解析数据:%.2f,%.2f,%d,%s,%d"[m[K,
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   48 |         [32m[Kconfig.brake[m[K,
+      |         [32m[K~~~~~~~~~~~~[m[K
+      |                [32m[K|[m[K
+      |                [32m[Kint[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:47:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   47 |     [01;36m[KROS_INFO[m[K("动态参数解析数据:%.2f,%.2f,%d,%s,%d",
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:47:43:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   47 |     ROS_INFO("动态参数解析数据:[01;36m[K%.2f[m[K,%.2f,%d,%s,%d",
+      |                                        [01;36m[K~~~^[m[K
+      |                                           [01;36m[K|[m[K
+      |                                           [01;36m[Kdouble[m[K
+      |                                        [32m[K%.2d[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:11[m[K:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:47:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 9 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   47 |     ROS_INFO([01;35m[K"动态参数解析数据:%.2f,%.2f,%d,%s,%d"[m[K,
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   48 |         config.brake,
+   49 |         [32m[Kconfig.throttle[m[K,
+      |         [32m[K~~~~~~~~~~~~~~~[m[K
+      |                [32m[K|[m[K
+      |                [32m[Kint[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:47:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   47 |     [01;36m[KROS_INFO[m[K("动态参数解析数据:%.2f,%.2f,%d,%s,%d",
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:47:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   47 |     ROS_INFO("动态参数解析数据:%.2f,[01;36m[K%.2f[m[K,%d,%s,%d",
+      |                                             [01;36m[K~~~^[m[K
+      |                                                [01;36m[K|[m[K
+      |                                                [01;36m[Kdouble[m[K
+      |                                             [32m[K%.2d[m[K

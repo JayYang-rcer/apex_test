@@ -1,0 +1,46 @@
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kvoid cb(demo02_dr::drConfig&, uint32_t)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass demo02_dr::drConfig[m[K’ has no member named ‘[01m[Kdouble_param[m[K’; did you mean ‘[01m[Kbool_param[m[K’?
+   40 |     throttle = config.[01;31m[Kdouble_param[m[K;
+      |                       [01;31m[K^~~~~~~~~~~~[m[K
+      |                       [32m[Kbool_param[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:11[m[K:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:42:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass demo02_dr::drConfig[m[K’ has no member named ‘[01m[Kint_param[m[K’; did you mean ‘[01m[Klist_param[m[K’?
+   42 |         config.[01;31m[Kint_param[m[K,
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:41:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   41 |     [01;36m[KROS_INFO[m[K("动态参数解析数据:%d,%.2f,%d,%s,%d",
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:43:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass demo02_dr::drConfig[m[K’ has no member named ‘[01m[Kdouble_param[m[K’; did you mean ‘[01m[Kbool_param[m[K’?
+   43 |         config.[01;31m[Kdouble_param[m[K,
+      |                [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:41:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   41 |     [01;36m[KROS_INFO[m[K("动态参数解析数据:%d,%.2f,%d,%s,%d",
+      |     [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

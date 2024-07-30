@@ -129,6 +129,22 @@ file(INSTALL DESTINATION "/home/jay/socket/install" TYPE FILE FILES "/home/jay/s
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/socket_test" TYPE FILE FILES "/home/jay/socket/devel/.private/socket_test/include/socket_test/carConfig.h")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/socket_test" TYPE FILE FILES "/home/jay/socket/devel/.private/socket_test/lib/python3/dist-packages/socket_test/__init__.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/jay/socket/devel/.private/socket_test/lib/python3/dist-packages/socket_test/cfg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/socket_test" TYPE DIRECTORY FILES "/home/jay/socket/devel/.private/socket_test/lib/python3/dist-packages/socket_test/cfg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jay/socket/build/socket_test/catkin_generated/installspace/socket_test.pc")
 endif()
 

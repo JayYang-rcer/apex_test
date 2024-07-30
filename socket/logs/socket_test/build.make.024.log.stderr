@@ -1,0 +1,41 @@
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::UpdateSpeed(double, double)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:67:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+   67 |         accel_[01;31m[K [m[K[32m[Kstd[m[K::max(std::min(ideal_accel,pre_accel_ + change_accel_limit_), pre_accel_ - change_accel_limit_);
+      |               [01;31m[K^[m[K[32m[K~~~[m[K
+      |               [32m[K;[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::UpdateSpeed(double, double)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:67:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+   67 |         accel_[01;31m[K [m[K[32m[Kstd[m[K::max(std::min(ideal_accel,pre_accel_ + change_accel_limit_), pre_accel_ - change_accel_limit_);
+      |               [01;31m[K^[m[K[32m[K~~~[m[K
+      |               [32m[K;[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::UpdateSpeed(double, double)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:67:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+   67 |         accel_[01;31m[K [m[K[32m[Kstd[m[K::max(std::min(ideal_accel,pre_accel_ + change_accel_limit_), pre_accel_ - change_accel_limit_);
+      |               [01;31m[K^[m[K[32m[K~~~[m[K
+      |               [32m[K;[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K At global scope:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:50:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KF1Car::F1Car(int, int, int, double, double, double)[m[K’
+   50 | F1Car car(10, -10, 50, 0.3, 1.225 ,1.5[01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:37:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KF1Car::F1Car(double, double, double, double, double, double, double)[m[K’
+   37 |     [01;36m[KF1Car[m[K(double accel_max, double accel_min, double speed_max, double airResisitanceCoeff, double airDenisity, double frontalArea, double change_accel_limit) :
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:37:5:[m[K [01;36m[Knote: [m[K  candidate expects 7 arguments, 6 provided
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:20:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr F1Car::F1Car(const F1Car&)[m[K’
+   20 | class [01;36m[KF1Car[m[K
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:20:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:20:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr F1Car::F1Car(F1Car&&)[m[K’
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:20:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 6 provided
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

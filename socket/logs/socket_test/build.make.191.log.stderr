@@ -1,0 +1,78 @@
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:254:10:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K;[m[K’ token
+  254 | int class[01;31m[K;[m[K
+      |          [01;31m[K^[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:254:10:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:254:10:[m[K [01;31m[Kerror: [m[Kdeclaration does not declare anything [[01;31m[K-fpermissive[m[K]
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:273:16:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K;[m[K’ token
+  273 |       int class[01;31m[K;[m[K
+      |                [01;31m[K^[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:273:16:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:273:16:[m[K [01;31m[Kerror: [m[Kdeclaration does not declare anything [[01;31m[K-fpermissive[m[K]
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:[m[K In member function ‘[01m[Kvoid demo02_dr::drConfig::DEFAULT::setParams(demo02_dr::drConfig&, std::vector<boost::shared_ptr<const demo02_dr::drConfig::AbstractParamDescription> >)[m[K’:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:246:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kclass[m[K’
+  246 |         if("class"==(*_i)->name){[01;31m[Kclass[m[K = boost::any_cast<int>(val);}
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:[m[K In constructor ‘[01m[Kdemo02_dr::drConfigStatics::drConfigStatics()[m[K’:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:453:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+  453 |       __min__.[01;31m[Kclass[m[K = 1;
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:455:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+  455 |       __max__.[01;31m[Kclass[m[K = 5;
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:457:19:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+  457 |       __default__.[01;31m[Kclass[m[K = 1;
+      |                   [01;31m[K^~~~~[m[K
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:459:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+  459 |       Default.abstract_parameters.push_back(drConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew drConfig::ParamDescription<int>("class", "int", 0, "档位", "{'enum': [{'name': 'one', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'two', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'three', 'type': 'int', 'value': 3, 'srcline': 27, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'four', 'type': 'int', 'value': 4, 'srcline': 28, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'five', 'type': 'int', 'value': 5, 'srcline': 29, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::class)));
+      |                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:459:1207:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+  459 |       Default.abstract_parameters.push_back(drConfig::AbstractParamDescriptionConstPtr(new drConfig::ParamDescription<int>("class", "int", 0, "档位", "{'enum': [{'name': 'one', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'two', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'three', 'type': 'int', 'value': 3, 'srcline': 27, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'four', 'type': 'int', 'value': 4, 'srcline': 28, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'five', 'type': 'int', 'value': 5, 'srcline': 29, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::[01;31m[Kclass[m[K)));
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:461:82:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+  461 |       __param_descriptions__.push_back(drConfig::AbstractParamDescriptionConstPtr[01;31m[K([m[Knew drConfig::ParamDescription<int>("class", "int", 0, "档位", "{'enum': [{'name': 'one', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'two', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'three', 'type': 'int', 'value': 3, 'srcline': 27, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'four', 'type': 'int', 'value': 4, 'srcline': 28, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'five', 'type': 'int', 'value': 5, 'srcline': 29, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::class)));
+      |                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:461:1202:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+  461 |       __param_descriptions__.push_back(drConfig::AbstractParamDescriptionConstPtr(new drConfig::ParamDescription<int>("class", "int", 0, "档位", "{'enum': [{'name': 'one', 'type': 'int', 'value': 1, 'srcline': 25, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a small size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'two', 'type': 'int', 'value': 2, 'srcline': 26, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a medium size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'three', 'type': 'int', 'value': 3, 'srcline': 27, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'four', 'type': 'int', 'value': 4, 'srcline': 28, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big size', 'ctype': 'int', 'cconsttype': 'const int'}, {'name': 'five', 'type': 'int', 'value': 5, 'srcline': 29, 'srcfile': '/home/jay/socket/src/socket_test/src/cfg/car.cfg', 'description': 'a big big big size', 'ctype': 'int', 'cconsttype': 'const int'}], 'enum_description': 'a car size set'}", &drConfig::[01;31m[Kclass[m[K)));
+      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [01;31m[K^~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kvoid cb(demo02_dr::drConfig&, uint32_t)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:25:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+   25 |     dangwei = config.[01;31m[Kclass[m[K;
+      |                      [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:11[m[K:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:32:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kclass[m[K’
+   32 |         config.[01;31m[Kclass[m[K
+      |                [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:27:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   27 |     [01;36m[KROS_INFO[m[K("动态参数解析数据:%d,%d,%d,%s,%d",
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kvoid udp_msg_send(int, sockaddr*)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:48:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+   48 |         sprintf(buf,"%03d%03d%03d%01d[01;35m[K%01d[m[K%01d",direction,throttle,brake,dangwei);
+      |                                      [01;35m[K~~~^[m[K
+      |                                         [01;35m[K|[m[K
+      |                                         [01;35m[Kint[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:48:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+   48 |         sprintf(buf,"%03d%03d%03d%01d%01d[01;35m[K%01d[m[K",direction,throttle,brake,dangwei);
+      |                                          [01;35m[K~~~^[m[K
+      |                                             [01;35m[K|[m[K
+      |                                             [01;35m[Kint[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -14,13 +14,14 @@
                 "${workspaceFolder}/src/rc_controllers/action_controller/include",
                 "${workspaceFolder}/src/rc_control/rc_gazebo/include",
                 "${workspaceFolder}/src/rc_control/rc_hw/include",
-                "${workspaceFolder}/src/socket_test/include"
+                "${workspaceFolder}/src/socket_test/include/**",
+                "/home/jay/socket/devel/include/socket_test"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
-            "cppStandard": "c++14"
+            "cppStandard": "c++17"
         }
     ],
     "version": 4

@@ -6,13 +6,17 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  dynamic_reconfigure
 )
 
+generate_dynamic_reconfigure_options(
+  src/cfg/car.cfg
+)
 
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES socket_test
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+ INCLUDE_DIRS include
+ LIBRARIES socket_test
+ CATKIN_DEPENDS roscpp rospy std_msgs
 #  DEPENDS system_lib
 )
 
@@ -32,9 +36,14 @@ target_link_libraries(head_udp_src
 )
 
 add_executable(server_pack src/udp_test/server_pack.cpp)
-
+target_link_libraries(server_pack
+  ${catkin_LIBRARIES}
+)
 
 add_executable(client src/udp_test/client.cpp)
+add_dependencies(client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(client
   ${catkin_LIBRARIES}
 )
+
+

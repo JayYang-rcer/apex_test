@@ -1,0 +1,56 @@
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In constructor ‘[01m[KF1Car::F1Car(double, double, double, double, double, double)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:36:20:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KF1Car[m[K’ does not have any field named ‘[01m[Kaccel_[m[K’
+   36 |         speed_(0), [01;31m[Kaccel_[m[K(0), accel_max_(accel_max), decel_max(decel_max_),speed_max_(speed_max),
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:36:54:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KF1Car[m[K’ does not have any field named ‘[01m[Kdecel_max[m[K’
+   36 |         speed_(0), accel_(0), accel_max_(accel_max), [01;31m[Kdecel_max[m[K(decel_max_),speed_max_(speed_max),
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kdouble F1Car::GetAccel() const[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccept[m[K’?
+   74 |     double GetAccel() const { return [01;31m[Kaccel_[m[K; }
+      |                                      [01;31m[K^~~~~~[m[K
+      |                                      [32m[Kaccept[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In constructor ‘[01m[KF1Car::F1Car(double, double, double, double, double, double)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:36:20:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KF1Car[m[K’ does not have any field named ‘[01m[Kaccel_[m[K’
+   36 |         speed_(0), [01;31m[Kaccel_[m[K(0), accel_max_(accel_max), decel_max(decel_max_),speed_max_(speed_max),
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:36:54:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KF1Car[m[K’ does not have any field named ‘[01m[Kdecel_max[m[K’
+   36 |         speed_(0), accel_(0), accel_max_(accel_max), [01;31m[Kdecel_max[m[K(decel_max_),speed_max_(speed_max),
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kdouble F1Car::GetAccel() const[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccept[m[K’?
+   74 |     double GetAccel() const { return [01;31m[Kaccel_[m[K; }
+      |                                      [01;31m[K^~~~~~[m[K
+      |                                      [32m[Kaccept[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In constructor ‘[01m[KF1Car::F1Car(double, double, double, double, double, double)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:36:20:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KF1Car[m[K’ does not have any field named ‘[01m[Kaccel_[m[K’
+   36 |         speed_(0), [01;31m[Kaccel_[m[K(0), accel_max_(accel_max), decel_max(decel_max_),speed_max_(speed_max),
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:36:54:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KF1Car[m[K’ does not have any field named ‘[01m[Kdecel_max[m[K’
+   36 |         speed_(0), accel_(0), accel_max_(accel_max), [01;31m[Kdecel_max[m[K(decel_max_),speed_max_(speed_max),
+      |                                                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kdouble F1Car::GetAccel() const[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccel_[m[K’ was not declared in this scope; did you mean ‘[01m[Kaccept[m[K’?
+   74 |     double GetAccel() const { return [01;31m[Kaccel_[m[K; }
+      |                                      [01;31m[K^~~~~~[m[K
+      |                                      [32m[Kaccept[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In function ‘[01m[Kvoid control_timer_callback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:61:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KF1Car::UpdateSpeed(double&, double&)[m[K’
+   61 |         car.UpdateSpeed(throttle, dt[01;31m[K)[m[K;
+      |                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:45:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid F1Car::UpdateSpeed(double, double, double)[m[K’
+   45 |     void [01;36m[KUpdateSpeed[m[K(double throttle, double brake, double dt)
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:45:10:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

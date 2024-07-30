@@ -89,6 +89,7 @@ client_EXTERNAL_OBJECTS =
 /home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 /home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
 /home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /opt/ros/noetic/lib/libroscpp_serialization.so
 /home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /opt/ros/noetic/lib/librostime.so
 /home/jay/socket/devel/.private/socket_test/lib/socket_test/client: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0

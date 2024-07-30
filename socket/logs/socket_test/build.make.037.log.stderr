@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/jay/socket/src/socket_test/src/cfg/car.cfg", line 19, in <module>
+    gen.add("brake",int_t,0,"刹车",0.5,0,1)
+  File "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py", line 291, in add
+    self.group.add(name, paramtype, level, description, default, min, max, edit_method)
+  File "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py", line 147, in add
+    self.gen.check_type_fill_default(newparam, 'default', self.gen.defval[paramtype])
+  File "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py", line 242, in check_type_fill_default
+    self.check_type(param, field)
+  File "/opt/ros/noetic/lib/python3/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py", line 228, in check_type
+    raise TypeError("'%s' has type %s, but %s is %s" % (name, drtype, field, repr(value)))
+TypeError: 'brake' has type int, but default is 0.5
+make[2]: *** [CMakeFiles/socket_test_gencfg.dir/build.make:64：/home/jay/socket/devel/.private/socket_test/include/socket_test/carConfig.h] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:992：CMakeFiles/socket_test_gencfg.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

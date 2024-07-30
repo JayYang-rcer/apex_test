@@ -1,0 +1,428 @@
+In file included from [01m[K/usr/include/features.h:461[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:528[m[K,
+                 from [01m[K/usr/include/c++/9/cstdlib:41[m[K,
+                 from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/usr/include/fcntl.h:28:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   28 | [01;31m[K__BEGIN_DECLS[m[K
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:10:49:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::ServerPack[m[K’ within ‘[01m[KF1Car[m[K’
+   10 | ServerPack::ServerPack(int16_t port, int timeout[01;31m[K)[m[K
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:57:25:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::ServerPack[m[K’ within ‘[01m[KF1Car[m[K’
+   57 | ServerPack::~ServerPack([01;31m[K)[m[K
+      |                         [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:73:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::OdomMsgCallback[m[K’ within ‘[01m[KF1Car[m[K’
+   63 | void ServerPack::OdomMsgCallback(const nav_msgs::Odometry::ConstPtr& msg[01;31m[K)[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:75:39:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::HandleData[m[K’ within ‘[01m[KF1Car[m[K’
+   75 | void ServerPack::HandleData(char *data[01;31m[K)[m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:97:68:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::HandleAccel[m[K’ within ‘[01m[KF1Car[m[K’
+   97 | void ServerPack::HandleAccel(int throttle, int brake, int direction[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:126:34:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::HandleMsg[m[K’ within ‘[01m[KF1Car[m[K’
+  126 | void ServerPack::HandleMsg(int fd[01;31m[K)[m[K
+      |                                  [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:164:22:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::Run[m[K’ within ‘[01m[KF1Car[m[K’
+  164 | void ServerPack::Run([01;31m[K)[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  176 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:22:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   22 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::SetGear(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:169:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  169 |     double GetSpeed() const [01;31m[K{[m[K return speed_; }
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:172:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  172 |     double GetAccel() const [01;31m[K{[m[K return accel_; }
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K At global scope:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  176 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/include/features.h:461[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h:528[m[K,
+                 from [01m[K/usr/include/c++/9/cstdlib:41[m[K,
+                 from [01m[K/usr/include/c++/9/stdlib.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/platform.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/usr/include/fcntl.h:28:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   28 | [01;31m[K__BEGIN_DECLS[m[K
+      | [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:10:49:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::ServerPack[m[K’ within ‘[01m[KF1Car[m[K’
+   10 | ServerPack::ServerPack(int16_t port, int timeout[01;31m[K)[m[K
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:57:25:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::ServerPack[m[K’ within ‘[01m[KF1Car[m[K’
+   57 | ServerPack::~ServerPack([01;31m[K)[m[K
+      |                         [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:63:73:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::OdomMsgCallback[m[K’ within ‘[01m[KF1Car[m[K’
+   63 | void ServerPack::OdomMsgCallback(const nav_msgs::Odometry::ConstPtr& msg[01;31m[K)[m[K
+      |                                                                         [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:75:39:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::HandleData[m[K’ within ‘[01m[KF1Car[m[K’
+   75 | void ServerPack::HandleData(char *data[01;31m[K)[m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:97:68:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::HandleAccel[m[K’ within ‘[01m[KF1Car[m[K’
+   97 | void ServerPack::HandleAccel(int throttle, int brake, int direction[01;31m[K)[m[K
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:126:34:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::HandleMsg[m[K’ within ‘[01m[KF1Car[m[K’
+  126 | void ServerPack::HandleMsg(int fd[01;31m[K)[m[K
+      |                                  [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:164:22:[m[K [01;31m[Kerror: [m[Kcannot define member function ‘[01m[KF1Car::ServerPack::Run[m[K’ within ‘[01m[KF1Car[m[K’
+  164 | void ServerPack::Run([01;31m[K)[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  176 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:22:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   22 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::SetGear(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:169:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  169 |     double GetSpeed() const [01;31m[K{[m[K return speed_; }
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:172:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  172 |     double GetAccel() const [01;31m[K{[m[K return accel_; }
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:[m[K At global scope:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  176 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:13[m[K:
+[01m[K/opt/ros/noetic/include/std_msgs/Float64.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K std_msgs
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/std_msgs/Float64.h:80:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   80 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/std_msgs/Float64.h:159:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  159 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/std_msgs/Float64.h:177:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  177 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/boost/thread/recursive_mutex.hpp:16[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/usr/include/boost/thread/pthread/recursive_mutex.hpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   43 | [01;31m[Knamespace[m[K boost
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:49[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/usr/include/boost/thread/recursive_mutex.hpp:23:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   23 | [01;31m[Knamespace[m[K boost
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Group.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ParamDescription.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Group.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ParamDescription.h:104:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  104 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ParamDescription.h:187:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  187 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ParamDescription.h:209:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  209 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Group.h:20:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   20 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Group.h:105:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  105 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Group.h:196:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  196 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Group.h:218:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  218 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/BoolParameter.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:18[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/BoolParameter.h:86:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   86 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/BoolParameter.h:166:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  166 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/BoolParameter.h:185:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  185 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/IntParameter.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/IntParameter.h:86:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   86 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/IntParameter.h:166:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  166 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/IntParameter.h:185:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  185 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:20[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/StrParameter.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:20[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/StrParameter.h:86:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   86 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/StrParameter.h:166:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  166 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/StrParameter.h:185:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  185 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:21[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/DoubleParameter.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:21[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/DoubleParameter.h:86:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   86 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/DoubleParameter.h:166:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  166 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/DoubleParameter.h:185:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  185 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/GroupState.h:19:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   19 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:22[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/GroupState.h:98:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   98 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/GroupState.h:180:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  180 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/GroupState.h:201:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  201 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:24:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   24 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:19[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:109:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  109 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:219:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  219 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Config.h:241:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  241 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:23:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   23 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:51[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:102:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  102 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:235:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  235 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ConfigDescription.h:256:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  256 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Reconfigure.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:52[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureRequest.h:20:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   20 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Reconfigure.h:11[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:52[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureRequest.h:81:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   81 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureRequest.h:195:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  195 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureRequest.h:213:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  213 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Reconfigure.h:12[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:52[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureResponse.h:20:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   20 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/Reconfigure.h:12[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:52[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureResponse.h:81:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   81 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureResponse.h:196:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  196 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/ReconfigureResponse.h:214:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+  214 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:52[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Reconfigure.h:15:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   15 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/Reconfigure.h:33:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   33 | [01;31m[Knamespace[m[K ros
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:14[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/server.h:58:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   58 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:19[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/config_tools.h:9:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+    9 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:25[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/opt/ros/noetic/include/dynamic_reconfigure/config_init_mutex.h:20:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   20 | [01;31m[Knamespace[m[K dynamic_reconfigure
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:26[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/usr/include/boost/any.hpp:35:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   35 | [01;31m[Knamespace[m[K boost
+      | [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:15[m[K:
+[01m[K/home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h:28:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Knamespace[m[K’
+   28 | [01;31m[Knamespace[m[K demo02_dr
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdemo02_dr[m[K’ has not been declared
+   22 | void cb([01;31m[Kdemo02_dr[m[K::drConfig& config, uint32_t level){
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:22:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+   22 | void cb(demo02_dr::drConfig[01;31m[K&[m[K config, uint32_t level){
+      |                            [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:117:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  117 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:22:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   22 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::SetGear(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:169:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  169 |     double GetSpeed() const [01;31m[K{[m[K return speed_; }
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:172:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  172 |     double GetAccel() const [01;31m[K{[m[K return accel_; }
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In member function ‘[01m[Kvoid F1Car::cb(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:23:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfig[m[K’ was not declared in this scope
+   23 |     throttle = [01;31m[Kconfig[m[K.throttle;
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K In member function ‘[01m[Kint F1Car::main(int, char**)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamic_reconfigure[m[K’ has not been declared
+   85 |     [01;31m[Kdynamic_reconfigure[m[K::Server<demo02_dr::drConfig> server;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:85:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdemo02_dr[m[K’ has not been declared
+   85 |     dynamic_reconfigure::Server<[01;31m[Kdemo02_dr[m[K::drConfig> server;
+      |                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:85:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver[m[K’ was not declared in this scope
+   85 |     dynamic_reconfigure::Server<demo02_dr::drConfig> [01;31m[Kserver[m[K;
+      |                                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamic_reconfigure[m[K’ has not been declared
+   87 |     [01;31m[Kdynamic_reconfigure[m[K::Server<demo02_dr::drConfig>::CallbackType cbType;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:87:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdemo02_dr[m[K’ has not been declared
+   87 |     dynamic_reconfigure::Server<[01;31m[Kdemo02_dr[m[K::drConfig>::CallbackType cbType;
+      |                                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:87:55:[m[K [01;31m[Kerror: [m[K‘[01m[K::CallbackType[m[K’ has not been declared
+   87 |     dynamic_reconfigure::Server<demo02_dr::drConfig>::[01;31m[KCallbackType[m[K cbType;
+      |                                                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:88:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcbType[m[K’ was not declared in this scope
+   88 |     [01;31m[KcbType[m[K = boost::bind(&cb,_1,_2);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:88:27:[m[K [01;31m[Kerror: [m[KISO C++ forbids taking the address of an unqualified or parenthesized non-static member function to form a pointer to member function.  Say ‘[01m[K&F1Car::cb[m[K’ [[01;31m[K-fpermissive[m[K]
+   88 |     cbType = boost::bind(&[01;31m[Kcb[m[K,_1,_2);
+      |                           [01;31m[K^~[m[K
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:[m[K At global scope:
+[01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:117:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  117 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

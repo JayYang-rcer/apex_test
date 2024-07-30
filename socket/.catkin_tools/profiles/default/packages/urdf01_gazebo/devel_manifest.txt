@@ -1,5 +1,0 @@
-urdf01_gazebo
-/home/jay/demo02_ws/devel/.private/urdf01_gazebo/cmake.lock /home/jay/demo02_ws/devel/./cmake.lock
-/home/jay/demo02_ws/devel/.private/urdf01_gazebo/share/urdf01_gazebo/cmake/urdf01_gazeboConfig.cmake /home/jay/demo02_ws/devel/share/urdf01_gazebo/cmake/urdf01_gazeboConfig.cmake
-/home/jay/demo02_ws/devel/.private/urdf01_gazebo/share/urdf01_gazebo/cmake/urdf01_gazeboConfig-version.cmake /home/jay/demo02_ws/devel/share/urdf01_gazebo/cmake/urdf01_gazeboConfig-version.cmake
-/home/jay/demo02_ws/devel/.private/urdf01_gazebo/lib/pkgconfig/urdf01_gazebo.pc /home/jay/demo02_ws/devel/lib/pkgconfig/urdf01_gazebo.pc
