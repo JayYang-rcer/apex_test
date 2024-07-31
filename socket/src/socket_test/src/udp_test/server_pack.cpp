@@ -102,7 +102,7 @@ void ServerPack::HandleAccel(int throttle, int brake, int direction)
     double throttle_f = throttle / 655.0;
     double brake_f = brake / 655.0;
     double direction_f = -(direction/655.0f - 0.5) * 3.14;
-    static F1Car car(1.5, 0.3, 1.225 ,1.5,0.3,0.2);
+    static F1Car car(3,0.3,1.225,1.5,0.3,0.2,0.1);
     static ros::Time last_time = ros::Time::now();
     ros::Time current_time = ros::Time::now();
     double dt = (current_time - last_time).toSec();
@@ -111,7 +111,6 @@ void ServerPack::HandleAccel(int throttle, int brake, int direction)
     
     last_time = current_time;
     car.RealSpeedInput(odom_.twist.twist.linear.x);
-    car.SetGear(dangwei_);
     car.AddThrottle(add_throttle_);
     car.EngineInput(engine_);
 

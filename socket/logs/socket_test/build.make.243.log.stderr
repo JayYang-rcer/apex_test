@@ -1,0 +1,50 @@
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::EngineInput(int)[m[K’:
+[01m[K/opt/ros/noetic/include/ros/console.h:330:22:[m[K [01;35m[Kwarning: [m[Kstatement will never be executed [[01;35m[K-Wswitch-unreachable[m[K]
+  330 |     if (ROS_UNLIKELY([01;35m[K![m[K::ros::console::g_initialized)) \
+      |                      [01;35m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:284:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_UNLIKELY[m[K’
+  284 | #define ROS_UNLIKELY(x)     __builtin_expect(([01;36m[Kx[m[K),0)
+      |                                               [01;36m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:337:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_AUTOINIT[m[K’
+  337 |   [01;36m[KROSCONSOLE_AUTOINIT[m[K; \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:386:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_DEFINE_LOCATION[m[K’
+  386 |     [01;36m[KROSCONSOLE_DEFINE_LOCATION[m[K(cond, level, name); \
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:61:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   61 |                 [01;36m[KROS_INFO[m[K("engine: %d", engine);
+      |                 [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:2[m[K,
+                 from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kvoid F1Car::EngineInput(int)[m[K’:
+[01m[K/opt/ros/noetic/include/ros/console.h:330:22:[m[K [01;35m[Kwarning: [m[Kstatement will never be executed [[01;35m[K-Wswitch-unreachable[m[K]
+  330 |     if (ROS_UNLIKELY([01;35m[K![m[K::ros::console::g_initialized)) \
+      |                      [01;35m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:284:47:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_UNLIKELY[m[K’
+  284 | #define ROS_UNLIKELY(x)     __builtin_expect(([01;36m[Kx[m[K),0)
+      |                                               [01;36m[K^[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:337:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_AUTOINIT[m[K’
+  337 |   [01;36m[KROSCONSOLE_AUTOINIT[m[K; \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:386:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_DEFINE_LOCATION[m[K’
+  386 |     [01;36m[KROSCONSOLE_DEFINE_LOCATION[m[K(cond, level, name); \
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:61:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   61 |                 [01;36m[KROS_INFO[m[K("engine: %d", engine);
+      |                 [01;36m[K^~~~~~~~[m[K

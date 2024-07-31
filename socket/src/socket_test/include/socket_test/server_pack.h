@@ -17,32 +17,59 @@
 #define SERVER_PORT 6050
 #define SERVER_IP "172.0.5.182"
 
-
+//1.电池
+//2.限速
+//3.引擎映射
 class F1Car
 {
 private:
     double speed_=0;  //当前速度
-    double speed_max_;  //最大速度
-    double accel_max_;  //最大加速度
     double accel_;  //当前加速度
-    double decel_max_;  //最大减速度
+    double speed_max_;  //最大速度
+    double accel_max_,l_accel_max_;  //最大加速度
+    double decel_max_,l_decel_max_;  //最大减速度
     double Cd; //空气阻力系数
     double A;  //横截面积
     double rho;  //空气密度
     double car_mass=3;  //车重
     double real_speed_;
     double throttle_add_ = 1.0f;
+    double engine_map_gap_;
+    int engine_select_ = 2;
+    double accel_add_ = 1.0f;
 
     double CalculateAirResistance(double speed)
     {
-        return 0.5 * Cd * A * rho * speed * speed;
-        // return 0.5 * Cd * A * rho * speed_ * speed_;
+//        return 0.5 * Cd * A * rho * speed * speed;
+         return 0.5 * Cd * A * rho * speed_ * speed_;
     }
 
 public:
-    F1Car(double speed_max, double airResisitanceCoeff, double airDenisity, double frontalArea, double accel_max, double decel_max) :
-        speed_(0), accel_(0),speed_max_(speed_max), accel_max_(accel_max), decel_max_(decel_max),
-        Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea){}
+    F1Car(int engine_select, double airResisitanceCoeff, double airDenisity, double frontalArea, double accel_max, double decel_max,
+          double engine_map_gap):
+          speed_(0), accel_(0), l_accel_max_(accel_max), l_decel_max_(decel_max),Cd(airResisitanceCoeff),
+          rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+          {
+            switch (engine_select_)
+            {
+                case 1:
+                    speed_max_ = 1.5;
+                    accel_add_ = 1.0;
+                    break;
+
+                case 2:
+                    speed_max_ = 1.75;
+                    accel_add_ = 1.1;
+                    break;
+
+                case 3:
+                    speed_max_ = 2.0;
+                    accel_add_ = 1.15;
+                    break;
+
+                default: break;
+            }
+          }
 
     void RealSpeedInput(double speed)
     {
@@ -51,26 +78,30 @@ public:
 
     void EngineInput(int engine)
     {
-        switch (engine)
+        static int last_engine = 0;
+        if(engine != last_engine)
         {
-            case 1:
-                accel_max_ = 0.25;
-                decel_max_ = 0.25;
-                break;
+            switch (engine)
+            {
+                case 1:
+                    accel_max_ = l_accel_max_ * (1-engine_map_gap_);
+                    decel_max_ = l_decel_max_ / (1-engine_map_gap_);
+                    break;
 
-            case 2:
-                accel_max_ = 0.3;
-                decel_max_ = 0.2;
-                break;
+                case 2:
+                    accel_max_ = l_accel_max_ * 1;
+                    decel_max_ = l_decel_max_ / 1;
+                    break;
 
-            case 3:
-                accel_max_ = 0.35;
-                decel_max_ = 0.15;
-                break;
-            
-            default:
-                break;
+                case 3:
+                    accel_max_ = l_accel_max_ / (1+engine_map_gap_);
+                    decel_max_ = l_decel_max_ * (1+engine_map_gap_);
+                    break;
+
+                default: break;
+            }
         }
+        last_engine = engine;
     }
 
     //加速、减速 
@@ -83,24 +114,29 @@ public:
         {
             //自然减速
             if(speed_ != 0)
-                accel = -0.3/4.0f;
+                accel = -accel_max_/4.0f;
             else
                 accel = 0;
         }
-        else
-        {   
-            if(speed_>speed_max_*0.3)
-                accel = throttle * accel_max_*throttle_add_ - brake * decel_max_ *throttle_add_* 2.5;
-            else
-                accel = 2*(throttle * accel_max_ * throttle_add_ - brake * decel_max_ *throttle_add_* 2.5);
+        else if(brake != 0)
+        {
+            accel = -brake * decel_max_ * throttle_add_ * 2;
         }
-        ROS_INFO("accel: %f", accel);
+        else
+        {
+            if (speed_ > speed_max_ * 0.3)
+                accel = throttle * accel_max_ * throttle_add_ * accel_add_;
+            else
+                accel = 1.5 * (throttle * accel_max_ * throttle_add_ * accel_add_);
+        }
+
         
         //根据当前油门值和目标速度来计算加速度,考虑空气阻力的影响
         double wind_resistance = CalculateAirResistance(real_speed_);
         double wind_decel = wind_resistance / car_mass;
         accel_ = accel - wind_decel * (speed_ > 0 ? 1 : 0);
         ROS_INFO("wind_decel: %f", wind_decel);
+        ROS_INFO("accel: %f", accel_);
 
         speed_ += accel_ * dt;
         
@@ -108,6 +144,7 @@ public:
         {
             if(throttle == 0 && brake != 0)
             {
+                //倒车限速
                 if(speed_ < -0.3)
                     speed_ = -0.3;
             }
@@ -124,7 +161,7 @@ public:
     }
 
 
-    //
+    //设置电池
     void AddThrottle(bool throttle)
     {
         if(throttle)
@@ -134,37 +171,6 @@ public:
         else
         {
             throttle_add_ = 1.0f;
-        }
-    }
-
-    //设置档位
-    void SetGear(int gear)
-    {
-        switch (gear)
-        {
-            case 1:
-                speed_max_ = 0.3;
-                break;
-            
-            case 2:
-                speed_max_ = 0.6;
-                break;
-            
-            case 3:
-                speed_max_ = 0.9;
-                break;
-
-            case 4:
-                speed_max_ = 1.2;
-                break;
-
-            case 5:
-                speed_max_ = 1.5;
-                break;
-
-            default:
-                speed_max_ = 0.3;
-                break;
         }
     }
 

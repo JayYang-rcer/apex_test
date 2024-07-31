@@ -1,0 +1,437 @@
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:11:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KF1Car::speed_[m[K’
+   49 |           [01;31m[Kspeed_[m[K(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |           [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:26:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     double [01;36m[Kspeed_[m[K=0;  //当前速度
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0[01;31m[K)[m[K, accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   49 |           speed_(0), accel_([01;31m[K0[m[K),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:30:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kaccel_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0[01;31m[K)[m[K,speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                              [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::accel_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0)[01;31m[K,[m[Kspeed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:27:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::accel_[m[K’
+   27 |     double [01;36m[Kaccel_[m[K;  //当前加速度
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_([01;31m[Kspeed_max[m[K), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:52:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kspeed_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max[01;31m[K)[m[K, l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::speed_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max)[01;31m[K,[m[K l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:28:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::speed_max_[m[K’
+   28 |     double [01;36m[Kspeed_max_[m[K;  //最大速度
+      |            [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccel_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_([01;31m[Kaccel_max[m[K), l_decel_max_(decel_max),
+      |                                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:77:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kl_accel_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max[01;31m[K)[m[K, l_decel_max_(decel_max),
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::l_accel_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max)[01;31m[K,[m[K l_decel_max_(decel_max),
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:29:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::l_accel_max_[m[K’
+   29 |     double accel_max_,[01;36m[Kl_accel_max_[m[K;  //最大加速度
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecel_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_([01;31m[Kdecel_max[m[K),
+      |                                                                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:102:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kl_decel_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max[01;31m[K)[m[K,
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::l_decel_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max)[01;31m[K,[m[K
+      |                                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:30:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::l_decel_max_[m[K’
+   30 |     double decel_max_,[01;36m[Kl_decel_max_[m[K;  //最大减速度
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:14:[m[K [01;31m[Kerror: [m[K‘[01m[KairResisitanceCoeff[m[K’ has not been declared
+   50 |           Cd([01;31m[KairResisitanceCoeff[m[K), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:33:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KCd[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff[01;31m[K)[m[K, rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                 [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::Cd(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff)[01;31m[K,[m[K rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:31:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::Cd[m[K’
+   31 |     double [01;36m[KCd[m[K; //空气阻力系数
+      |            [01;36m[K^~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:40:[m[K [01;31m[Kerror: [m[K‘[01m[KairDenisity[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho([01;31m[KairDenisity[m[K), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Krho[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity[01;31m[K)[m[K, A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::rho(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity)[01;31m[K,[m[K A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:33:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::rho[m[K’
+   33 |     double [01;36m[Krho[m[K;  //空气密度
+      |            [01;36m[K^~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:56:[m[K [01;31m[Kerror: [m[K‘[01m[KfrontalArea[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A([01;31m[KfrontalArea[m[K), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:67:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KA[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea[01;31m[K)[m[K, engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::A(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea)[01;31m[K,[m[K engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:32:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::A[m[K’
+   32 |     double [01;36m[KA[m[K;  //横截面积
+      |            [01;36m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kengine_map_gap[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_([01;31m[Kengine_map_gap[m[K), engine_select_(engine_select)
+      |                                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:100:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kengine_map_gap_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap[01;31m[K)[m[K, engine_select_(engine_select)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::engine_map_gap_(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap)[01;31m[K,[m[K engine_select_(engine_select)
+      |                                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:37:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::engine_map_gap_[m[K’
+   37 |     double [01;36m[Kengine_map_gap_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kengine_select[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_([01;31m[Kengine_select[m[K)
+      |                                                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:131:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kengine_select_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select[01;31m[K)[m[K
+      |                                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::engine_select_(int)[m[K’ conflicts with a previous declaration
+   68 |           [01;31m[K}[m[K
+      |           [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:38:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint F1Car::engine_select_[m[K’
+   38 |     int [01;36m[Kengine_select_[m[K = 2;
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kint F1Car::engine_select_(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:68:11:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   68 |           [01;35m[K}[m[K
+      |           [01;35m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:11:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KF1Car::speed_[m[K’
+   49 |           [01;31m[Kspeed_[m[K(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |           [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:26:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     double [01;36m[Kspeed_[m[K=0;  //当前速度
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0[01;31m[K)[m[K, accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   49 |           speed_(0), accel_([01;31m[K0[m[K),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:30:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kaccel_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0[01;31m[K)[m[K,speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                              [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::accel_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0)[01;31m[K,[m[Kspeed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:27:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::accel_[m[K’
+   27 |     double [01;36m[Kaccel_[m[K;  //当前加速度
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_([01;31m[Kspeed_max[m[K), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:52:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kspeed_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max[01;31m[K)[m[K, l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::speed_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max)[01;31m[K,[m[K l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:28:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::speed_max_[m[K’
+   28 |     double [01;36m[Kspeed_max_[m[K;  //最大速度
+      |            [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccel_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_([01;31m[Kaccel_max[m[K), l_decel_max_(decel_max),
+      |                                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:77:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kl_accel_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max[01;31m[K)[m[K, l_decel_max_(decel_max),
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::l_accel_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max)[01;31m[K,[m[K l_decel_max_(decel_max),
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:29:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::l_accel_max_[m[K’
+   29 |     double accel_max_,[01;36m[Kl_accel_max_[m[K;  //最大加速度
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecel_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_([01;31m[Kdecel_max[m[K),
+      |                                                                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:102:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kl_decel_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max[01;31m[K)[m[K,
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::l_decel_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max)[01;31m[K,[m[K
+      |                                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:30:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::l_decel_max_[m[K’
+   30 |     double decel_max_,[01;36m[Kl_decel_max_[m[K;  //最大减速度
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:14:[m[K [01;31m[Kerror: [m[K‘[01m[KairResisitanceCoeff[m[K’ has not been declared
+   50 |           Cd([01;31m[KairResisitanceCoeff[m[K), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:33:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KCd[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff[01;31m[K)[m[K, rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                 [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::Cd(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff)[01;31m[K,[m[K rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:31:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::Cd[m[K’
+   31 |     double [01;36m[KCd[m[K; //空气阻力系数
+      |            [01;36m[K^~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:40:[m[K [01;31m[Kerror: [m[K‘[01m[KairDenisity[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho([01;31m[KairDenisity[m[K), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Krho[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity[01;31m[K)[m[K, A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::rho(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity)[01;31m[K,[m[K A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:33:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::rho[m[K’
+   33 |     double [01;36m[Krho[m[K;  //空气密度
+      |            [01;36m[K^~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:56:[m[K [01;31m[Kerror: [m[K‘[01m[KfrontalArea[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A([01;31m[KfrontalArea[m[K), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:67:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KA[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea[01;31m[K)[m[K, engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::A(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea)[01;31m[K,[m[K engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:32:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::A[m[K’
+   32 |     double [01;36m[KA[m[K;  //横截面积
+      |            [01;36m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kengine_map_gap[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_([01;31m[Kengine_map_gap[m[K), engine_select_(engine_select)
+      |                                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:100:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kengine_map_gap_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap[01;31m[K)[m[K, engine_select_(engine_select)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::engine_map_gap_(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap)[01;31m[K,[m[K engine_select_(engine_select)
+      |                                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:37:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::engine_map_gap_[m[K’
+   37 |     double [01;36m[Kengine_map_gap_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kengine_select[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_([01;31m[Kengine_select[m[K)
+      |                                                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:131:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kengine_select_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select[01;31m[K)[m[K
+      |                                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::engine_select_(int)[m[K’ conflicts with a previous declaration
+   68 |           [01;31m[K}[m[K
+      |           [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:38:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint F1Car::engine_select_[m[K’
+   38 |     int [01;36m[Kengine_select_[m[K = 2;
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/server_pack.cpp:1[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kint F1Car::engine_select_(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:68:11:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   68 |           [01;35m[K}[m[K
+      |           [01;35m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:11:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KF1Car::speed_[m[K’
+   49 |           [01;31m[Kspeed_[m[K(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |           [01;31m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:26:12:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |     double [01;36m[Kspeed_[m[K=0;  //当前速度
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:19:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0[01;31m[K)[m[K, accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:29:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   49 |           speed_(0), accel_([01;31m[K0[m[K),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:30:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kaccel_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0[01;31m[K)[m[K,speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                              [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::accel_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0)[01;31m[K,[m[Kspeed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:27:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::accel_[m[K’
+   27 |     double [01;36m[Kaccel_[m[K;  //当前加速度
+      |            [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kspeed_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_([01;31m[Kspeed_max[m[K), l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:52:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kspeed_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max[01;31m[K)[m[K, l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::speed_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max)[01;31m[K,[m[K l_accel_max_(accel_max), l_decel_max_(decel_max),
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:28:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::speed_max_[m[K’
+   28 |     double [01;36m[Kspeed_max_[m[K;  //最大速度
+      |            [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kaccel_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_([01;31m[Kaccel_max[m[K), l_decel_max_(decel_max),
+      |                                                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:77:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kl_accel_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max[01;31m[K)[m[K, l_decel_max_(decel_max),
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::l_accel_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max)[01;31m[K,[m[K l_decel_max_(decel_max),
+      |                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:29:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::l_accel_max_[m[K’
+   29 |     double accel_max_,[01;36m[Kl_accel_max_[m[K;  //最大加速度
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:93:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecel_max[m[K’ has not been declared
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_([01;31m[Kdecel_max[m[K),
+      |                                                                                             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:102:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kl_decel_max_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max[01;31m[K)[m[K,
+      |                                                                                                      [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:49:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::l_decel_max_(int)[m[K’ conflicts with a previous declaration
+   49 |           speed_(0), accel_(0),speed_max_(speed_max), l_accel_max_(accel_max), l_decel_max_(decel_max)[01;31m[K,[m[K
+      |                                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:30:23:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::l_decel_max_[m[K’
+   30 |     double decel_max_,[01;36m[Kl_decel_max_[m[K;  //最大减速度
+      |                       [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:14:[m[K [01;31m[Kerror: [m[K‘[01m[KairResisitanceCoeff[m[K’ has not been declared
+   50 |           Cd([01;31m[KairResisitanceCoeff[m[K), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:33:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KCd[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff[01;31m[K)[m[K, rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                 [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::Cd(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff)[01;31m[K,[m[K rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                  [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:31:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::Cd[m[K’
+   31 |     double [01;36m[KCd[m[K; //空气阻力系数
+      |            [01;36m[K^~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:40:[m[K [01;31m[Kerror: [m[K‘[01m[KairDenisity[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho([01;31m[KairDenisity[m[K), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:51:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Krho[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity[01;31m[K)[m[K, A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::rho(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity)[01;31m[K,[m[K A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:33:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::rho[m[K’
+   33 |     double [01;36m[Krho[m[K;  //空气密度
+      |            [01;36m[K^~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:56:[m[K [01;31m[Kerror: [m[K‘[01m[KfrontalArea[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A([01;31m[KfrontalArea[m[K), engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:67:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KA[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea[01;31m[K)[m[K, engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::A(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea)[01;31m[K,[m[K engine_map_gap_(engine_map_gap), engine_select_(engine_select)
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:32:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::A[m[K’
+   32 |     double [01;36m[KA[m[K;  //横截面积
+      |            [01;36m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kengine_map_gap[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_([01;31m[Kengine_map_gap[m[K), engine_select_(engine_select)
+      |                                                                                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:100:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kengine_map_gap_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap[01;31m[K)[m[K, engine_select_(engine_select)
+      |                                                                                                    [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::engine_map_gap_(int)[m[K’ conflicts with a previous declaration
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap)[01;31m[K,[m[K engine_select_(engine_select)
+      |                                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:37:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble F1Car::engine_map_gap_[m[K’
+   37 |     double [01;36m[Kengine_map_gap_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:118:[m[K [01;31m[Kerror: [m[K‘[01m[Kengine_select[m[K’ has not been declared
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_([01;31m[Kengine_select[m[K)
+      |                                                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:50:131:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kengine_select_[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   50 |           Cd(airResisitanceCoeff), rho(airDenisity), A(frontalArea), engine_map_gap_(engine_map_gap), engine_select_(engine_select[01;31m[K)[m[K
+      |                                                                                                                                   [01;31m[K^[m[K
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kint F1Car::engine_select_(int)[m[K’ conflicts with a previous declaration
+   68 |           [01;31m[K}[m[K
+      |           [01;31m[K^[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:38:9:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint F1Car::engine_select_[m[K’
+   38 |     int [01;36m[Kengine_select_[m[K = 2;
+      |         [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jay/socket/src/socket_test/src/udp_test/client.cpp:12[m[K:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:[m[K In member function ‘[01m[Kint F1Car::engine_select_(int)[m[K’:
+[01m[K/home/jay/socket/src/socket_test/include/socket_test/server_pack.h:68:11:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   68 |           [01;35m[K}[m[K
+      |           [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/server_pack.dir/build.make:63：CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:911：CMakeFiles/server_pack.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/head_udp_src.dir/build.make:63：CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:884：CMakeFiles/head_udp_src.dir/all] 错误 2
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/udp_test/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:188：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

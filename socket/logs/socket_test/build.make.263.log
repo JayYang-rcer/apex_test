@@ -1,32 +1,32 @@
-[ 14%] Built target rosgraph_msgs_generate_messages_cpp
 [ 14%] [34m[1mGenerating dynamic reconfigure files from src/cfg/car.cfg: /home/jay/socket/devel/.private/socket_test/include/socket_test/carConfig.h /home/jay/socket/devel/.private/socket_test/lib/python3/dist-packages/socket_test/cfg/carConfig.py[0m
 [ 14%] Built target rosgraph_msgs_generate_messages_eus
-[ 14%] Built target dynamic_reconfigure_generate_messages_cpp
-[ 14%] Built target roscpp_generate_messages_cpp
-[ 14%] Built target roscpp_generate_messages_lisp
-[ 14%] Built target std_msgs_generate_messages_nodejs
-[ 14%] Built target rosgraph_msgs_generate_messages_py
-[ 14%] Built target std_msgs_generate_messages_py
-[ 14%] Built target std_msgs_generate_messages_eus
-[ 14%] Built target roscpp_generate_messages_nodejs
-[ 14%] Built target rosgraph_msgs_generate_messages_nodejs
-[ 14%] Built target rosgraph_msgs_generate_messages_lisp
-[ 14%] Built target std_msgs_generate_messages_cpp
-[ 14%] Built target roscpp_generate_messages_eus
-[35m[1mScanning dependencies of target server_pack[0m
 [ 14%] Built target roscpp_generate_messages_py
+[ 14%] Built target roscpp_generate_messages_nodejs
+[ 14%] Built target roscpp_generate_messages_eus
+[ 14%] Built target rosgraph_msgs_generate_messages_cpp
+[ 14%] Built target roscpp_generate_messages_lisp
+[ 14%] Built target roscpp_generate_messages_cpp
+[ 14%] Built target std_msgs_generate_messages_cpp
+[ 14%] Built target rosgraph_msgs_generate_messages_py
+[ 14%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 14%] Built target std_msgs_generate_messages_eus
+[ 14%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 14%] Built target std_msgs_generate_messages_nodejs
+[ 14%] Built target rosgraph_msgs_generate_messages_lisp
+[ 14%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target server_pack[0m
 [ 14%] Built target dynamic_reconfigure_generate_messages_lisp
-[ 14%] Built target std_msgs_generate_messages_lisp
 [ 14%] Built target dynamic_reconfigure_generate_messages_nodejs
-[ 14%] Built target dynamic_reconfigure_generate_messages_py
 [ 14%] Built target dynamic_reconfigure_generate_messages_eus
+[ 14%] Built target dynamic_reconfigure_generate_messages_py
+[ 14%] Built target std_msgs_generate_messages_lisp
 [ 14%] Built target dynamic_reconfigure_gencfg
 [ 28%] [32mBuilding CXX object CMakeFiles/server_pack.dir/src/udp_test/server_pack.cpp.o[0m
 Generating reconfiguration files for dr in demo02_dr
 Wrote header file in /home/jay/socket/devel/.private/socket_test/include/socket_test/drConfig.h
 [ 28%] Built target socket_test_gencfg
-[35m[1mScanning dependencies of target client[0m
 [35m[1mScanning dependencies of target head_udp_src[0m
+[35m[1mScanning dependencies of target client[0m
 [ 42%] [32mBuilding CXX object CMakeFiles/head_udp_src.dir/src/udp_test/server_pack.cpp.o[0m
 [ 57%] [32mBuilding CXX object CMakeFiles/client.dir/src/udp_test/client.cpp.o[0m
 [ 71%] [32m[1mLinking CXX executable /home/jay/socket/devel/.private/socket_test/lib/socket_test/server_pack[0m
